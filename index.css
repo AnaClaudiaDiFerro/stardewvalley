@@ -1,0 +1,81 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.card {
+    background-color: rgb(187, 170, 15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    
+}
+.sidebar {
+    display: grid;
+    grid-template-columns: 200px 300px 300px 300px;
+    grid-template-rows: 15px 15px 15px 15px;
+    background-color: transparent;
+    justify-items:end;
+  }
+  
+  .sidebar a {
+      padding: 15px;
+      text-decoration:none;
+      font-size: 25px;
+      color: white;
+      transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+      color:gold;
+    }
+
+
+    .descrição {
+        content:normal;
+        position: absolute;
+        top: 480px;
+        margin-left: 190px;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .descrição2 {
+        content:normal;
+        position: absolute;
+        top: 680px;
+        margin-left: 180px;
+        font-size: 27px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .descrição3 {
+        content:normal;
+        position: absolute;
+        top: 900px;
+        margin-left: 190px;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .descrição4 {
+        content:normal;
+        position: absolute;
+        top: 1130px;
+        margin-left: 200px;
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    p {
+        background-color:rgb(75, 138, 233);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 20px;
+        margin-left: 500px;
+        width: 300px;
+        font-family: 'Inconsolata', monospace;
+        text-align: start;
+       
+    }
